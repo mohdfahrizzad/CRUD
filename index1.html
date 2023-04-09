@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CRUD</title>
+    <link type="text/css" rel="stylesheet" href="styless.css">
+  </head>
+
+  <body>
+    <table>
+      <tr>
+        <td>
+          <form autocomplete="off" onsubmit="onFromSubmit()">
+            <div>
+              <label for="nama">Nama</label>
+              <input type="text" name="Nama" id="nama">
+            </div>
+            <div>
+              <label for="username">Username</label>
+              <input type="text" name="username" id="username">
+            </div>
+            <div>
+              <label for="noTelefon">No Telefon</label>
+              <input type="number" name="noTelefon" id="noTelefon">
+            </div>
+            <div>
+              <label for="email">Email</label>
+              <input type="text" name="email" id="email">
+            </div>
+            <div>
+              <label for="alamat">Alamat</label>
+              <input type="text" name="alamat" id="alamat">
+            </div>
+            <div class="form_action-button">
+              <input type="submit" value="Submit">
+              <input type="reset" value="Reset">
+            </div>
+          </form>
+
+          <td>
+            <table class="list" id="userList">
+              <thead>
+                <tr>
+                  <th>Nama</th>
+                  <th>Username</th>
+                  <th>No Telefon</th>
+                  <th>Email</th>
+                  <th>Alamat</th>
+                </tr>
+              </thead>
+              <tbody>
+                
+              </tbody>
+            </table>
+          </td>
+        </td>
+      </tr>
+    </table>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
